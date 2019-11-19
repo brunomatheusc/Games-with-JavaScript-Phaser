@@ -1,10 +1,10 @@
 
-demo.state2 = function(){};
-demo.state2.prototype = {
+demo.state3 = function(){};
+demo.state3.prototype = {
     preload: function(){},
     create: function(){
         game.stage.backgroundColor = "#80ff80";
-        console.log('state2');
+        console.log('state3');
     },
     update: function(){}
 };
